@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Bible Names Dictionary</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="navigation">
+        <audio id="song" src="icons/As the Deer.mp3" loop></audio>
+        <button id="btn1" class="play_pause">
+          <img
+            src="https://cdn.pixabay.com/animation/2024/06/04/16/39/16-39-28-355_512.gif"
+            alt=""
+          />
+        </button>
+        <button id="btn2" class="play_pause"></button>
+        <input
+          class="search"
+          type="text"
+          placeholder="Find a bible name"
+          autofocus
+        />
+        <button id="search-btn">
+          <img src="icons/search-line-icon.svg" alt="" />
+        </button>
+      </nav>
+      <div class="jump_to">
+        <table>
+          <tbody>
+            <td>Jump to:</td>
+            <td><a href="#" class="link">A</a></td>
+            <td><a href="#" class="link">B</a></td>
+            <td><a href="#" class="link">C</a></td>
+            <td><a href="#" class="link">D</a></td>
+            <td><a href="#" class="link">E</a></td>
+            <td><a href="#" class="link">F</a></td>
+            <td><a href="#" class="link">G</a></td>
+            <td><a href="#" class="link">H</a></td>
+            <td><a href="#" class="link">I</a></td>
+            <td><a href="#" class="link">J</a></td>
+            <td><a href="#" class="link">K</a></td>
+            <td><a href="#" class="link">L</a></td>
+            <td><a href="#" class="link">M</a></td>
+            <td><a href="#" class="link">N</a></td>
+            <td><a href="#" class="link">O</a></td>
+            <td><a href="#" class="link">P</a></td>
+            <td><a href="#" class="link">Q</a></td>
+            <td><a href="#" class="link">R</a></td>
+            <td><a href="#" class="link">S</a></td>
+            <td><a href="#" class="link">T</a></td>
+            <td><a href="#" class="link">U</a></td>
+            <td><a href="#" class="link">V</a></td>
+            <td><a href="#" class="link">W</a></td>
+            <td><a href="#" class="link">X</a></td>
+            <td><a href="#" class="link">Y</a></td>
+            <td><a href="#" class="link">Z</a></td>
+          </tbody>
+        </table>
+      </div>
+    </header>
+    <main id="main">
+      <div id="for_content">
+        <div class="about_notice">
+          You can use the search bar or the letters to navigate through and find
+          biblical names.
+        </div>
+        <h1>Name of the day:</h1>
+        <div class="about_name">
+          <article>
+            <span id="heading"></span>
+          </article>
+          <ul>
+            <li><span class="edit">Other names</span><span id="other_names"></span></li>
+            <li><span class="edit">Language</span><span id="language"></span></li>
+            <li><span class="edit">Inherent meaning</span><span id="inherent"></span></li>
+            <li>
+              <span class="edit">Spiritual connotation</span><span id="spiritual_connotation"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+    <script src="names.js"></script>
+  </body>
+</html>
